@@ -26,7 +26,7 @@ export default function Emo(props) {
             {
             scor.map((sc,e)=>
             {
-              return <li key={e}>Player{e+1}: {"  "} {sc} {sc==props.targ?<span>!!!Winner</span>:<span></span>}<button onClick={()=>addsc(e)}>+1</button></li>
+              return <li key={e} style={{fontSize:"20px"}}>Player{e+1}: {"  "} {sc} {sc==props.targ?<span>!!!Winner</span>:<span></span>}<button onClick={()=>addsc(e)}>+1</button></li>
             })
             }
            <button onClick={res}>Reset</button>

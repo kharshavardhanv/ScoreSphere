@@ -5,9 +5,11 @@ function App() {
   return (
     <div className="App">
       
-      {
-        <span style={{fontSize:"50px"}}><b>THIS IS A SCOREKEEPER OF 10 PLAYERS</b></span>
-      }
+      <div style={{backgroundColor:"white",display:'inline-block'}}>
+           {
+             <span style={{fontSize:"50px"}}><b>THIS IS A SCOREKEEPER OF 10 PLAYERS</b></span>
+           }
+      </div>
       <Emo n={10} targ={10}/>
     </div>
   );
